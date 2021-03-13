@@ -1,0 +1,58 @@
+/* header {
+  background-color: rgb(224, 241, 150);
+}
+
+header nav{
+    display: inline;
+    float: right;
+    padding: 1px 100px;
+    top: 80px;
+}
+header nav a {
+    list-style: none;
+}
+header nav a{
+    display: inline;
+    margin: 20px 10px;
+}
+header nav  a:hover,header nav  a:focus{
+    color: rgb(255, 0, 191);
+    font-weight: bold;
+}
+header h1{
+    color: rgb(65, 89, 225);
+    font-weight: bold;
+    text-align: center;
+}
+section{
+    background-color: gold;
+}
+section h2{
+    color: rgb(225, 65, 172);
+    font-weight: bold;
+    text-align: center;
+}
+section form{
+    float:right;
+    color: orchid;
+}
+section ol li{
+    color: rgba(255, 20, 20, 0.479);
+    font-weight: bold:
+
+}
+section img{
+    text-align: right;
+    height: 120px;
+    width: 120px;
+} */
+/* header */
+.bg-light {
+    background-color: #287cd1!important;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: red !important;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(231 227 227 / 90%);
+}
